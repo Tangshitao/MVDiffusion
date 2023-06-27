@@ -3,4 +3,4 @@ We propose MVDiffusion, a simple yet effective multi-view image generation metho
 
 ![](./assert/teaser.png)
 
-## [Project page]() |  [Paper]() | [Demo]()
+## [Project page](https://mvdiffusion.github.io/) |  [Paper]() | [Demo](https://huggingface.co/spaces/tangshitao/MVDiffusion)
