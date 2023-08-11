@@ -89,6 +89,19 @@ Execute the following scripts for training:
 - ```sh train_pano_outpaint.sh```: Train the panoramic image outpaint model.
 - ```sh train_depth.sh```: Train the depth conditioned generation model.
 
+# Custom data
+Panorama generation: 
+
+1. Convert the panorama into 6 skybox images using the provided tool, [Equirec2Perspec](https://github.com/fuenwang/Equirec2Perspec). You will get left, right, front, back, up, and down images. 
+2. Convert the panorama to 8 perspective images. Each image will capture a 45-degree horizontal view. Four of these images will overlap with the skybox images, specifically the left, right, front, and back views. 
+3. Once you have the perspective images, you can use [BLIP2](https://github.com/salesforce/LAVIS) to generate prompts from them.
+
+Multi-view Depth-to-Image Generation: 
+
+1. Using Scannet Format: For this, you would typically follow the structure and format of the Scannet dataset.
+2. use [BLIP2](https://github.com/salesforce/LAVIS) to generate prompts from each perspective image.
+
+
 ## Citation
 
 If you use our work in your research, please cite it as follows:
