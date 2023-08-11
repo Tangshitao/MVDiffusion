@@ -1,0 +1,20 @@
+dataset:
+  name: scannet
+  num_views: 12
+  image_dir: data/scannet/train
+  resolution_h: 192
+  resolution_w: 256
+  data_load_mode: fix_frame
+  test_interval: -1
+  gen_data_ratio: 0.5 # Training data ratio of text-conditioned generation or dual-conditioned generation
+train:
+  lr: 0.0002
+
+model:
+  model_id: stabilityai/stable-diffusion-2-depth
+  depth_config: configs/depth_preprocessor_config.json
+  guidance_scale: 9.
+  diff_timestep: 50
+  model_type: depth
+  overlap_filter: 0.3
+    
