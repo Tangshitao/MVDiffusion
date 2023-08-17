@@ -23,7 +23,7 @@ We provide baseline results and models for the following:
 - [Panorama model](https://www.dropbox.com/scl/fi/yx9e0lj4fwtm9xh2wlhhg/pano.ckpt?rlkey=kowqygw7vt64r3maijk8klfl0&dl=0)
 - [Panorama outpainting model](https://www.dropbox.com/scl/fi/3mtj06qx6mxt4eme1oz2r/pano_outpaint.ckpt?rlkey=xat6cwt47lzfjawum05xa5ftq&dl=0)
 - [Depth-conditioned generation model](https://www.dropbox.com/scl/fi/56hcmoj0tx7lza7s2m0jq/depth_gen.ckpt?rlkey=upcdbd4kxd9zwms78dssm3gh7&dl=0)
-- [Depth pretrained model](https://www.dropbox.com/scl/fi/56hcmoj0tx7lza7s2m0jq/depth_gen.ckpt?rlkey=upcdbd4kxd9zwms78dssm3gh7&dl=0)
+- [Depth pretrained model](https://www.dropbox.com/scl/fi/i1u8jzadcq1mx23aef7s6/depth_single_view.ckpt?rlkey=4in8g1g8vxrbx21o7do4hqy3c&dl=0)
 
 Please put those files in 'MVDiffusion/weights'.
 
