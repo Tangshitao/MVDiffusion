@@ -1,4 +1,4 @@
-# MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion
+# MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion, (Neurips 2023, spotlight)
 
 <div align="center">
   <img width="800" src="assets/teaser.gif">
