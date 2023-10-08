@@ -59,7 +59,7 @@ class CPAttn(nn.Module):
 
             homo_r = rearrange(homo_r, '(b l) h w -> b l h w', b=xy_r.shape[0])
             query, key_value, key_value_xy, mask = get_query_value(
-                x_left, x_right, xy_l, homo_r, img_h, img_h)
+                x_left, x_right, xy_l, homo_r, img_h, img_w)
 
             key_value_xy = rearrange(key_value_xy, 'b l h w c->(b h w) l c')
             key_value_pe = self.pe(key_value_xy)
