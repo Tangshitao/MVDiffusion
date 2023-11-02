@@ -27,7 +27,7 @@ def get_correspondences(R, K, img_h, img_w):
                     R_left@torch.inverse(K_left))
             
 
-            xyz_l = torch.tensor(get_x_2d(img_h, img_w),
+            xyz_l = torch.tensor(get_x_2d(img_w, img_h),
                                 device=R.device)
             xyz_l = (
                 xyz_l.reshape(-1, 3).T)[None].repeat(homo_l.shape[0], 1, 1)
