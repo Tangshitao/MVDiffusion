@@ -6,6 +6,19 @@
 
 # [Project page](https://mvdiffusion.github.io/) |  [Paper](https://arxiv.org/abs/2307.01097) | [Demo](https://huggingface.co/spaces/tangshitao/MVDiffusion)
 
+## Citation
+
+If you use our work in your research, please cite it as follows:
+
+```bibtex
+@article{tang2023MVDiffusion,
+  title={MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion},
+  author={Tang, Shitao and Zhang, Fuayng and Chen, Jiacheng and Wang, Peng and Yasutaka, Furukawa},
+  journal={arXiv preprint 2307.01097},
+  year={2023}
+}
+```
+
 ### Updates: MVDiffusion is able to extrapolate a single perspective image into a 360-degree view panorama. The paper has been updated. 
 
 ## Installation
@@ -101,19 +114,6 @@ Multi-view Depth-to-Image Generation:
 1. Using Scannet Format: For this, you would typically follow the structure and format of the Scannet dataset.
 2. use [BLIP2](https://github.com/salesforce/LAVIS) to generate prompts from each perspective image.
 
-
-## Citation
-
-If you use our work in your research, please cite it as follows:
-
-```bibtex
-@article{tang2023MVDiffusion,
-  title={MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion},
-  author={Tang, Shitao and Zhang, Fuayng and Chen, Jiacheng and Wang, Peng and Yasutaka, Furukawa},
-  journal={arXiv preprint 2307.01097},
-  year={2023}
-}
-```
 
 ## License
 
