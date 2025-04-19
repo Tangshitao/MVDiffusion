@@ -11,7 +11,7 @@ from generate_video_tool.pano_video_generation import generate_video
 from PIL import Image
 from exiftool import ExifToolHelper
 from datetime import datetime
-import numpy as np
+import torch
 torch.manual_seed(0)
 
 def get_K_R(FOV, THETA, PHI, height, width):
